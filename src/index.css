@@ -53,6 +53,7 @@ body {
   position: absolute;
   z-index: 5;
 }
+
 .girl-bg {
   width: 51%;
   height: auto;
@@ -80,11 +81,36 @@ body {
   position: absolute;
 }
 
+.col-span-2 {
+  grid-column: span 2/ span 2;
+}
+
 .title-white {
   -webkit-filter: brightness(0) invert(1);
   filter: brightness(0) invert(1);
 }
 
+#chooseUs {
+  background: url("./images/choose-us/choose-bg.jpg");
+}
+
+.title-bg {
+  background: url("./images/pricing/titlebg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#trainer {
+  background: url('./images/trainers/dot-bg.png');
+}
+
+#trainerBg {
+  background: url("./images//trainers/trainer-bg.png");
+  background-size: contain;
+  background-position: 0% 20%;
+  background-repeat: no-repeat;
+  width: auto;
+}
 
 * {
   scrollbar-width: thin;

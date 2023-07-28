@@ -50,16 +50,21 @@ function About() {
                 </div>
               </div>
               <button
-                className="glow-on-hover font-semibold uppercase hover:text-[#ff0336] ease-in-out duration-300"
+                className="glow-on-hover flex justify-around items-center font-semibold uppercase hover:text-[#ff0336] hover:justify-center ease-in-out duration-300"
                 type="button"
               >
-                Take tour &nbsp;<i className="fa-solid fa-arrow-right"></i>
+                <p>Take tour &nbsp;</p>
+                <i className="fa-solid fa-arrow-right"></i>
               </button>
             </div>
             <div className="flex w-full justify-around relative md1200:hidden">
               <img src={girlText} alt="" />
               <img className="absolute z-10" src={girl} alt="" />
-              <img className="absolute z-10 top-64 w-[5rem] right-44" src={girlWind} alt="" />
+              <img
+                className="absolute z-10 top-64 w-[5rem] right-44"
+                src={girlWind}
+                alt=""
+              />
               <img src={girlRedBg} alt="" />
             </div>
           </div>
